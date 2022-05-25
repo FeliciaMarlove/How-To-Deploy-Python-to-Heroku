@@ -35,8 +35,10 @@ pip freeze > requirements.txt
 The file name is "Procfile", case sensitive!
 This file containes the commands executed at startup.
 ```
-web: gunicorn gettingstarted.wsgi
+web: gunicorn <your-python-application-boot-file>.wsgi
 ```
+![image](https://user-images.githubusercontent.com/57141210/170202898-dca96df2-ecf0-4c46-8152-b111665896f3.png)
+
 
 ## Push the code
 ```
